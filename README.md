@@ -6,7 +6,7 @@ PHP bindings to the Drift API
 
 This library requires PHP 7.1 and later
 
-The recommended way to install drift-php is through [Composer](https://getcomposer.org):
+The recommended way to install drift-php is through [Composer](https://getcomposer.org)
 
 This library is intended to speed up development time but is not a shortcut to reading the Drift API documentation. Many endpoints require specific and required fields for successful operation. Always read the documentation before using an endpoint.
 

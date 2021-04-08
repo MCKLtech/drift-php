@@ -4016,12 +4016,6 @@
       <change afterPath="$PROJECT_DIR$/../copper-php/src/CopperProjects.php" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../copper-php/src/CopperRelatedItems.php" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../copper-php/src/CopperTasks.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/DriftAccounts.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/DriftAdmin.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/DriftContacts.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/DriftGDPR.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/DriftMessages.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/DriftPlaybooks.php" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../nimble-php/.gitignore" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../nimble-php/README.md" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../nimble-php/composer.json" afterDir="false" />
@@ -7596,6 +7590,8 @@
       <change beforePath="$PROJECT_DIR$/../../../database/migrations/2020_05_22_185124_create_customers_table.php" beforeDir="false" afterPath="$PROJECT_DIR$/../../../database/migrations/2020_05_22_185124_create_customers_table.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../../package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/../../../package-lock.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../../package.json" beforeDir="false" afterPath="$PROJECT_DIR$/../../../package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../../public/js/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/../../../public/js/app.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../../resources/js/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/../../../resources/js/app.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../../resources/views/home.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/../../../resources/views/home.blade.php" afterDir="false" />
@@ -7613,7 +7609,7 @@
     <execution />
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../.." />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="PhpWorkspaceProjectConfiguration">
     <include_path>
@@ -7701,7 +7697,7 @@
       <updated>1617740133114</updated>
       <workItem from="1617740136846" duration="27000" />
       <workItem from="1617740173850" duration="2135000" />
-      <workItem from="1617888793682" duration="2458000" />
+      <workItem from="1617888793682" duration="2749000" />
     </task>
     <servers />
   </component>
