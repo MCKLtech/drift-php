@@ -101,12 +101,16 @@ class DriftMessages extends DriftResource
      *
      * @see    https://devdocs.drift.com/docs/updating-a-contact
      * @param $conversationId
+     * @param bool $json
      * @param array $options
      * @return stdClass
      */
-    public function transcript($conversationId, array $options = [])
+    public function transcript($conversationId, $json = false, array $options = [])
     {
-        return $this->client->get("conversations/$conversationId/transcript", $options);
+        if($json) $endpoint = "conversations/$conversationId/json_transcript";
+        else $endpoint = "conversations/$conversationId/transcript";
+
+        return $this->client->get($endpoint, $options);
     }
 
     /**

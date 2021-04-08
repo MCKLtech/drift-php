@@ -149,12 +149,7 @@ class DriftClient
      */
     public function hasMore(stdClass $response)
     {
-        if (isset($response->meta->pagination)) {
-
-            return $response->meta->pagination->current_page < $response->meta->pagination->next_page;
-        }
-
-        return false;
+        return isset($response->pagination->more) ? $response->pagination->more : false;
     }
 
     /**
@@ -167,7 +162,7 @@ class DriftClient
      */
     public function nextPage(stdClass $response)
     {
-        return isset($response->meta->pagination->next_page) ? $response->meta->pagination->next_page : 1;
+        return isset($response->pagination->next) ? $response->pagination->next : 1;
     }
 
     /**
