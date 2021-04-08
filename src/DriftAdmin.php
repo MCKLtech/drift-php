@@ -11,13 +11,14 @@ class DriftAdmin extends DriftResource
      * Trigger App Uninstall
      *
      * @see    https://devdocs.drift.com/docs/app-uninstall
-     * @param $clientId
-     * @param $clientSecret
+     * @param string $clientId
+     * @param string $clientSecret
+     * @param array $options
      * @return stdClass
      */
-    public function uninstall(string $clientId, string $clientSecret)
+    public function uninstall(string $clientId, string $clientSecret, array $options = [])
     {
-        return $this->client->post("app/uninstall", ['clientId' => $clientId, 'clientSecret' => $clientSecret]);
+        return $this->client->post("app/uninstall?clientId=$clientId&clientSecret=$clientSecret", $options);
     }
 
     /**
@@ -31,7 +32,4 @@ class DriftAdmin extends DriftResource
     {
         return $this->client->post("app/token_info", ['accessToken' => $accessToken]);
     }
-
-
-
 }

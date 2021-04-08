@@ -18,7 +18,7 @@ class DriftContacts extends DriftResource
      */
     public function list(array $options = [])
     {
-        return $this->client->get('users/list', $options);
+        return $this->client->get('contacts/list', $options);
     }
 
     /**
