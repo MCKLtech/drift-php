@@ -11,7 +11,7 @@ class DriftContacts extends DriftResource
     /**
      * Lists Contacts
      *
-     * @see    https://devdocs.drift.com/docs/listing-users
+     * @see    https://devdocs.drift.com/docs/listing-contacts
      * @param  array $options
      * @return stdClass
      * @throws Exception
@@ -106,7 +106,7 @@ class DriftContacts extends DriftResource
      */
     public function getById($id, $options = [])
     {
-        return $this->client->get("users/$id", $options);
+        return $this->client->get("contacts/$id", $options);
     }
 
     /**

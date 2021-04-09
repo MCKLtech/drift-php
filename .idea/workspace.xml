@@ -7590,9 +7590,6 @@
       <change beforePath="$PROJECT_DIR$/../../../database/migrations/2020_05_22_185124_create_customers_table.php" beforeDir="false" afterPath="$PROJECT_DIR$/../../../database/migrations/2020_05_22_185124_create_customers_table.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../../package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/../../../package-lock.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../../package.json" beforeDir="false" afterPath="$PROJECT_DIR$/../../../package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/DriftClient.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/DriftClient.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/DriftMessages.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/DriftMessages.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../../public/js/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/../../../public/js/app.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../../resources/js/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/../../../resources/js/app.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../../resources/views/home.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/../../../resources/views/home.blade.php" afterDir="false" />
@@ -7699,7 +7696,7 @@
       <workItem from="1617740136846" duration="27000" />
       <workItem from="1617740173850" duration="2135000" />
       <workItem from="1617888793682" duration="2919000" />
-      <workItem from="1617899334913" duration="2406000" />
+      <workItem from="1617899334913" duration="2572000" />
     </task>
     <servers />
   </component>
